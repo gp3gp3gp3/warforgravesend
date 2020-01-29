@@ -20,7 +20,6 @@ const IndexPage = () => (
           marginRight: "5%",
           alignSelf: "center",
           height: "100%",
-          margin: "5px",
           filter: "drop-shadow(1px 1px 0.75px rgba(0,0,0,0.7))",
         }}
       />
