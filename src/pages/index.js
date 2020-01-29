@@ -22,7 +22,7 @@ const IndexPage = () => (
       }}
     >
       <a
-        href="mailto:gpaul.empyrean@gmail.com"
+        href="mailto:warforgravesend@gmail.com"
         style={{ fontSize: 10, color: "white" }}
       >
         gravesend@gmail.com
