@@ -1,32 +1,19 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "../assets/logo.svg"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#101010`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <img src={Logo} style={{ width: "100%", margin: "5px" }} />
     </div>
   </header>
 )
