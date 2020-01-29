@@ -1,11 +1,11 @@
 import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+  @import url('https://fonts.googleapis.com/css?family=UnifrakturCook:700&display=swap');
   body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'UnifrakturCook', cursive;
     background-color: #101010;
     color: white;
   }

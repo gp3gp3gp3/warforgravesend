@@ -11,6 +11,15 @@ const IndexPage = () => (
         boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)",
       }}
     >
+      <img
+        src={"images/logo-black.svg"}
+        style={{
+          width: "100%",
+          height: "100%",
+          margin: "5px",
+          filter: "drop-shadow(1px 1px 0.75px rgba(0,0,0,0.7))",
+        }}
+      />
       <div
         style={{
           margin: "0 auto",
