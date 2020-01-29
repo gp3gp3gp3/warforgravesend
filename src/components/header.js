@@ -1,6 +1,5 @@
 import PropTypes from "prop-types"
 import React from "react"
-import Logo from "../images/logo.svg"
 
 const Header = () => (
   <header
@@ -14,7 +13,7 @@ const Header = () => (
       }}
     >
       <img
-        src={Logo}
+        src={"images/logo.svg"}
         style={{ width: "100%", height: "100%", margin: "5px" }}
       />
     </div>

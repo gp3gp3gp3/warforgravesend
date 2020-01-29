@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import emblem from "../images/emblem.png"
 
 const IndexPage = () => (
   <Layout>
@@ -13,7 +12,7 @@ const IndexPage = () => (
       }}
     >
       <img
-        src={emblem}
+        src={"images/emblem.png"}
         style={{
           width: "100%",
           height: "100%",
