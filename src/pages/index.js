@@ -1,38 +1,88 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
     <div
       style={{
-        margin: "0 auto",
-        maxWidth: "30%",
+        backgroundImage: "url(images/background.jpg)",
+        backgroundSize: "cover",
+        height: "100%",
+        boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)",
       }}
     >
-      <img
-        src={"images/emblem.png"}
+      <div
         style={{
-          width: "100%",
-          height: "100%",
-          filter: "drop-shadow(0px 4px 4px black)",
+          margin: "0 auto",
+          maxWidth: "30%",
         }}
-      />
-    </div>
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <a
-        href="mailto:warforgravesend@gmail.com"
-        style={{ fontSize: 10, color: "white" }}
       >
-        gravesend@gmail.com
-      </a>
+        <img
+          src={"images/emblem.png"}
+          style={{
+            width: "100%",
+            height: "100%",
+            filter: "drop-shadow(0px 4px 4px black)",
+          }}
+        />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: 10,
+        }}
+      >
+        <a
+          href="mailto:warforgravesend@gmail.com"
+          style={{
+            fontSize: 48,
+            color: "black",
+            WebkitTextStroke: "0.5px white",
+          }}
+        >
+          Gravesend@gmail.com
+        </a>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: 10,
+        }}
+      >
+        <a
+          href="https://warforgravesend.bandcamp.com/"
+          style={{
+            fontSize: 48,
+            color: "black",
+            WebkitTextStroke: "0.5px white",
+          }}
+        >
+          Bandcamp
+        </a>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: 10,
+        }}
+      >
+        <a
+          href="https://www.instagram.com/warforgravesend/"
+          style={{
+            fontSize: 48,
+            color: "black",
+            WebkitTextStroke: "0.5px white",
+          }}
+        >
+          Instagram
+        </a>
+      </div>
     </div>
   </Layout>
 )
