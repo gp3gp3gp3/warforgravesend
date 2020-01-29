@@ -1,7 +1,7 @@
 import React from "react"
-import Emblem from "../components/emblem"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import emblem from "../images/emblem.png"
 
 const IndexPage = () => (
   <Layout>
@@ -12,7 +12,14 @@ const IndexPage = () => (
         maxWidth: "30%",
       }}
     >
-      <Emblem />
+      <img
+        src={emblem}
+        style={{
+          width: "100%",
+          height: "100%",
+          filter: "drop-shadow(0px 4px 4px black)",
+        }}
+      />
     </div>
     <div
       style={{
