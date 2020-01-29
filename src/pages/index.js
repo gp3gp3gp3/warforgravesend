@@ -9,7 +9,6 @@ const IndexPage = () => (
         backgroundSize: "contain",
         height: "100%",
         width: "100%",
-        boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)",
       }}
     >
       <img
@@ -20,7 +19,6 @@ const IndexPage = () => (
           marginRight: "5%",
           alignSelf: "center",
           height: "100%",
-          filter: "drop-shadow(1px 1px 0.75px rgba(0,0,0,0.7))",
         }}
       />
       <div
