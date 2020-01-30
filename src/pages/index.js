@@ -45,55 +45,66 @@ const IndexPage = () => (
         }}
       >
         <a
-          href="mailto:warforgravesend@gmail.com"
+          href={"PressKit/GRAVESEND_PRESS_KIT.zip"}
           style={{
-            fontSize: "10vw",
+            fontSize: "8vw",
             textShadow: "4px 4px black",
             color: "#353839",
             WebkitTextStroke: "0.75px white",
           }}
         >
-          Gravesend@gmail.com
+          PRESS KIT
         </a>
       </div>
       <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
+          marginBottom: 10,
+        }}
+      >
+        <a
+          href="mailto:warforgravesend@gmail.com"
+          style={{
+            fontSize: "8vw",
+            textShadow: "4px 4px black",
+            color: "#353839",
+            WebkitTextStroke: "0.75px white",
+          }}
+        >
+          EMAIL
+        </a>
+      </div>
+      <div
+        style={{
           marginBottom: 10,
         }}
       >
         <a
           href="https://warforgravesend.bandcamp.com/"
           style={{
-            fontSize: "10vw",
+            fontSize: "8vw",
             textShadow: "4px 4px black",
             color: "#353839",
             WebkitTextStroke: "0.75px white",
           }}
         >
-          Bandcamp
+          BANDCAMP
         </a>
       </div>
       <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
           marginBottom: 10,
         }}
       >
         <a
           href="https://www.instagram.com/warforgravesend/"
           style={{
-            fontSize: "10vw",
+            fontSize: "8vw",
             textShadow: "4px 4px black",
             color: "#353839",
             WebkitTextStroke: "0.75px white",
           }}
         >
-          Instagram
+          INSTAGRAM
         </a>
       </div>
     </div>
