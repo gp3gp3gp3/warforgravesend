@@ -6,7 +6,7 @@ const IndexPage = () => (
     <GlobalStyle />
     <div
       style={{
-        backgroundImage: "url(images/background.jpg)",
+        backgroundImage: "url(images/background_opt.jpg)",
         backgroundSize: "cover",
         backgroundRepeat: "repeat",
         height: "100%",
