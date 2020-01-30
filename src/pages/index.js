@@ -1,14 +1,20 @@
 import React from "react"
-import Layout from "../components/layout"
+import { GlobalStyle } from "../theme/globalStyle"
 
 const IndexPage = () => (
-  <Layout>
+  <>
+    <GlobalStyle />
     <div
       style={{
         backgroundImage: "url(images/background.jpg)",
-        backgroundSize: "contain",
+        backgroundSize: "cover",
+        backgroundRepeat: "repeat",
         height: "100%",
-        width: "100%",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-around",
+        alignItems: "center",
       }}
     >
       <img
@@ -17,13 +23,10 @@ const IndexPage = () => (
           width: "90%",
           marginLeft: "5%",
           marginRight: "5%",
-          alignSelf: "center",
-          height: "100%",
         }}
       />
       <div
         style={{
-          margin: "0 auto",
           maxWidth: "30%",
         }}
       >
@@ -38,18 +41,16 @@ const IndexPage = () => (
       </div>
       <div
         style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
           marginBottom: 10,
         }}
       >
         <a
           href="mailto:warforgravesend@gmail.com"
           style={{
-            fontSize: 48,
-            color: "black",
-            WebkitTextStroke: "0.5px white",
+            fontSize: "10vw",
+            textShadow: "4px 4px black",
+            color: "#353839",
+            WebkitTextStroke: "0.75px white",
           }}
         >
           Gravesend@gmail.com
@@ -66,9 +67,10 @@ const IndexPage = () => (
         <a
           href="https://warforgravesend.bandcamp.com/"
           style={{
-            fontSize: 48,
-            color: "black",
-            WebkitTextStroke: "0.5px white",
+            fontSize: "10vw",
+            textShadow: "4px 4px black",
+            color: "#353839",
+            WebkitTextStroke: "0.75px white",
           }}
         >
           Bandcamp
@@ -85,16 +87,17 @@ const IndexPage = () => (
         <a
           href="https://www.instagram.com/warforgravesend/"
           style={{
-            fontSize: 48,
-            color: "black",
-            WebkitTextStroke: "0.5px white",
+            fontSize: "10vw",
+            textShadow: "4px 4px black",
+            color: "#353839",
+            WebkitTextStroke: "0.75px white",
           }}
         >
           Instagram
         </a>
       </div>
     </div>
-  </Layout>
+  </>
 )
 
 export default IndexPage

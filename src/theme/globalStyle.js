@@ -5,9 +5,9 @@ export const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    font-family: 'UnifrakturCook', cursive;
-    background-color: #101010;
-    color: white;
+    font-family: 'UnifrakturCook';
+    background-color: white;
+    color: black;
   }
   a {
     text-decoration: none;

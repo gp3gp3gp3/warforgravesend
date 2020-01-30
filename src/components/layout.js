@@ -28,12 +28,14 @@ const Layout = ({ children }) => {
       <GlobalStyle />
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div
-        style={{
-          margin: `0 auto`,
-          // maxWidth: 960,
-        }}
+        style={
+          {
+            // margin: `0 auto`,
+            // maxWidth: 960,
+          }
+        }
       >
-        <main>{children}</main>
+        {children}
       </div>
     </>
   )
