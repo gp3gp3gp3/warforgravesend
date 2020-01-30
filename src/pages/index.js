@@ -31,7 +31,7 @@ const IndexPage = () => (
         }}
       >
         <img
-          src={"images/emblem.png"}
+          src={"images/emblem_opt.png"}
           style={{
             width: "100%",
             height: "100%",
