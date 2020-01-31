@@ -41,71 +41,75 @@ const IndexPage = () => (
       </div>
       <div
         style={{
-          marginBottom: 10,
+          paddingTop: 20,
+          paddingLeft: 20,
+          paddingRight: 20,
+          borderRadius: "2px",
+          backgroundColor: "black",
+          alignItems: "center",
+          boxShadow: "0px 2px 2px 0px rgba(0,0,0,0.75)",
         }}
       >
-        <a
-          href={"PressKit/GRAVESEND_PRESS_KIT.zip"}
+        <div
           style={{
-            fontSize: "8vw",
-            textShadow: "4px 4px black",
-            color: "#353839",
-            WebkitTextStroke: "0.75px white",
+            marginBottom: 10,
           }}
         >
-          PRESS KIT
-        </a>
-      </div>
-      <div
-        style={{
-          marginBottom: 10,
-        }}
-      >
-        <a
-          href="mailto:warforgravesend@gmail.com"
+          <a
+            href={"PressKit/GRAVESEND_PRESS_KIT.zip"}
+            style={{
+              fontSize: "8vw",
+              color: "white",
+            }}
+          >
+            PRESS KIT
+          </a>
+        </div>
+        <div
           style={{
-            fontSize: "8vw",
-            textShadow: "4px 4px black",
-            color: "#353839",
-            WebkitTextStroke: "0.75px white",
+            marginBottom: 10,
           }}
         >
-          EMAIL
-        </a>
-      </div>
-      <div
-        style={{
-          marginBottom: 10,
-        }}
-      >
-        <a
-          href="https://warforgravesend.bandcamp.com/"
+          <a
+            href="mailto:warforgravesend@gmail.com"
+            style={{
+              fontSize: "8vw",
+              color: "white",
+            }}
+          >
+            EMAIL
+          </a>
+        </div>
+        <div
           style={{
-            fontSize: "8vw",
-            textShadow: "4px 4px black",
-            color: "#353839",
-            WebkitTextStroke: "0.75px white",
+            marginBottom: 10,
           }}
         >
-          BANDCAMP
-        </a>
-      </div>
-      <div
-        style={{
-          marginBottom: 10,
-        }}
-      >
-        <a
-          href="https://www.instagram.com/warforgravesend/"
+          <a
+            href="https://warforgravesend.bandcamp.com/"
+            style={{
+              fontSize: "8vw",
+              color: "white",
+            }}
+          >
+            BANDCAMP
+          </a>
+        </div>
+        <div
           style={{
-            fontSize: "8vw",
-            textShadow: "4px 4px black",
-            color: "#353839",
-            WebkitTextStroke: "0.75px white",
+            marginBottom: 10,
           }}
         >
-          INSTAGRAM
-        </a>
+          <a
+            href="https://www.instagram.com/warforgravesend/"
+            style={{
+              fontSize: "8vw",
+              color: "white",
+            }}
+          >
+            INSTAGRAM
+          </a>
+        </div>
       </div>
     </div>
   </>
