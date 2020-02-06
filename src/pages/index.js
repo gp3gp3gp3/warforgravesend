@@ -1,4 +1,5 @@
 import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 import { GlobalStyle } from "../theme/globalStyle"
 
 const IndexPage = () => (
@@ -56,7 +57,7 @@ const IndexPage = () => (
             marginBottom: 10,
           }}
         >
-          <a
+          <OutboundLink
             href={"PressKit/GRAVESEND_PRESS_KIT.zip"}
             style={{
               fontSize: "8vw",
@@ -64,14 +65,14 @@ const IndexPage = () => (
             }}
           >
             PRESS KIT
-          </a>
+          </OutboundLink>
         </div>
         <div
           style={{
             marginBottom: 10,
           }}
         >
-          <a
+          <OutboundLink
             href="mailto:warforgravesend@gmail.com"
             style={{
               fontSize: "8vw",
@@ -79,14 +80,14 @@ const IndexPage = () => (
             }}
           >
             EMAIL
-          </a>
+          </OutboundLink>
         </div>
         <div
           style={{
             marginBottom: 10,
           }}
         >
-          <a
+          <OutboundLink
             href="https://warforgravesend.bandcamp.com/"
             style={{
               fontSize: "8vw",
@@ -94,14 +95,14 @@ const IndexPage = () => (
             }}
           >
             BANDCAMP
-          </a>
+          </OutboundLink>
         </div>
         <div
           style={{
             marginBottom: 10,
           }}
         >
-          <a
+          <OutboundLink
             href="https://www.instagram.com/warforgravesend/"
             style={{
               fontSize: "8vw",
@@ -109,7 +110,7 @@ const IndexPage = () => (
             }}
           >
             INSTAGRAM
-          </a>
+          </OutboundLink>
         </div>
       </div>
     </div>
