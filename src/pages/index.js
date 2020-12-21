@@ -58,21 +58,6 @@ const IndexPage = () => (
           }}
         >
           <OutboundLink
-            href={"PressKit/GRAVESEND_PRESS_KIT.zip"}
-            style={{
-              fontSize: "8vw",
-              color: "white",
-            }}
-          >
-            PRESS KIT
-          </OutboundLink>
-        </div>
-        <div
-          style={{
-            marginBottom: 10,
-          }}
-        >
-          <OutboundLink
             href="mailto:warforgravesend@gmail.com"
             style={{
               fontSize: "8vw",
