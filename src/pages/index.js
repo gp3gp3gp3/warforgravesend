@@ -97,6 +97,36 @@ const IndexPage = () => (
             INSTAGRAM
           </OutboundLink>
         </div>
+        <div
+          style={{
+            marginBottom: 10,
+          }}
+        >
+          <OutboundLink
+            href="https://www.20buckspin.com/collections/gravesend"
+            style={{
+              fontSize: "8vw",
+              color: "white",
+            }}
+          >
+            LABEL
+          </OutboundLink>
+        </div>
+        <div
+          style={{
+            marginBottom: 10,
+          }}
+        >
+          <OutboundLink
+            href="https://infernomerchstore.com/collections/gravesend"
+            style={{
+              fontSize: "8vw",
+              color: "white",
+            }}
+          >
+            MERCH
+          </OutboundLink>
+        </div>
       </div>
     </div>
   </>
